@@ -6,5 +6,5 @@ docker build -t python .
 
 Run the Docker container: Run the following command to start a container from the image you just built:
 
-docker run -itd -p 5000:5000 -v /data/python:/app --name python python
+docker run -itd -p 5000:5000 --name python python
 
